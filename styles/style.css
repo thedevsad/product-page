@@ -190,3 +190,114 @@
    font-size: 15px;
    color: #365aff;
 }
+
+.green-highlight{
+  font-family: "Outfit", sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   color: #1DB469;
+}
+
+.green-highlight-two{
+  font-family: "Outfit", sans-serif;
+   font-weight: 700;
+   font-size: 18px;
+   color: #1DB469;
+}
+
+.second-section-box{
+  background-image: url(/images/Background.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100vh;
+   margin-bottom: 20px;
+}
+
+.second-section-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 140px;
+
+}
+
+.second-left-container h1{
+  font-size: 60px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.second-left-container h4{
+  font-size: 60px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.second-left-container p{
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.first-feature-section{
+  display: flex;
+  margin-top: 20px;
+}
+
+.first-feature-section h5{
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-left: 20px;
+
+}
+
+.feature-no-one{
+  font-size: 35px;
+  font-weight: 900;
+  font-family: "Outfit", sans-serif;
+  color: white;
+  background-color: #1DB469;
+  padding: 10px 20px;
+  border-radius: 60px;
+  height: 40px;
+  margin-bottom: 50px;
+}
+
+.second-feature-section{
+    display: flex;
+}
+
+.second-feature-section h5{
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-left: 20px;
+}
+
+.second-right-conatainer img{
+  height: 700px;
+}
+
+.feature-bg{
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  font-weight: 500;
+  background-color: #1DB469;
+  color: white;
+  border-radius: 50px;
+  width: 150px;
+  padding: 15px 18px 15px 18px;
+  margin-bottom: 20px;
+
+}
