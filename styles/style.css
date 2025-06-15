@@ -3,10 +3,13 @@
   padding: 0px;
 }
 
-/* Left Side container styles starts here */
-.left-side-cont{
+.main-box{
+  display: flex;
+  justify-content: flex-start;
   padding: 60px 140px;
 }
+
+/* Left Side container styles starts here */
 
 .item-header-image{
   height: 535px;
@@ -19,3 +22,82 @@
   gap: 8px;
 }
 /* Left Side container styles ends here */
+.right-side-cont{
+  margin-left: 35px;
+}
+
+.best-seller{
+  background-color: #ED4444;
+  height: 25px;
+  width: 95px;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
+}
+
+.best-seller h3{
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -2%;
+  vertical-align: middle;
+  color: white;
+
+}
+
+.Ratings-cont{
+  display: flex;
+  margin-top: 10px;
+}
+
+.ratings-number{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    gap: 5px;
+}
+
+.number-reviews{
+  color: rgb(138, 140, 140);
+  font-weight: 300;
+}
+
+.product-title{
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 106%;
+  letter-spacing: -5%;
+
+}
+
+.p-t-s{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.review-box{
+  background-color: #F2F2F6A8;
+  height: 120px;
+  width: 435px;
+  padding: 20px 10px 20px 10px;
+  border-radius: 15px;
+  margin-top: 15px;
+
+}
+
+.review-box img{
+  border-radius: 50px;
+  height: 30px;
+  margin-bottom: 10px ;
+  margin-left: 10px;
+}
+
+.review-box h5{
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 10px;
+}
