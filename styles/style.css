@@ -1,0 +1,21 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Left Side container styles starts here */
+.left-side-cont{
+  padding: 60px 140px;
+}
+
+.item-header-image{
+  height: 535px;
+}
+
+.extra-images{
+  display: flex;
+  height: 125px;
+  margin-top: 8px;
+  gap: 8px;
+}
+/* Left Side container styles ends here */
