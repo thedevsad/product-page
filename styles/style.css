@@ -23,9 +23,9 @@
 
 .extra-images{
   display: flex;
-  height: 125px;
+  height: 80px;
   margin-top: 8px;
-  gap: 8px;
+  gap: 5px;
 }
 /* Left Side container styles ends here */
 .right-side-cont{
@@ -299,5 +299,46 @@
   width: 150px;
   padding: 15px 18px 15px 18px;
   margin-bottom: 20px;
-
 }
+
+.third-cont-heading h1{
+  font-size: 45px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  color: #141B4D;
+  padding: 60px 140px;
+}
+
+.v-line{
+  width: 1px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.275);
+  margin: 20px;
+}
+
+.third-cont-box{
+  display: flex;
+  padding: 60px 140px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ratings-box{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.ratings-box h4{
+ font-size: 35px;
+ font-family: "Outfit", sans-serif;
+ font-weight: 800;
+}
+.ratings-box img{
+  height: 30px;
+}
+.box1 h3{
+  font-size: 15px;
+ font-family: "Outfit", sans-serif;
+ font-weight: 500;
+}
+
