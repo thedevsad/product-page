@@ -160,6 +160,7 @@
   letter-spacing: 1px;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .bank-logos{

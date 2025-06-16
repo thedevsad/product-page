@@ -1,0 +1,410 @@
+
+@media (max-width: 1200px) {
+    .main-box,
+    .second-section-box,
+    .third-cont-box,
+    .third-cont-heading {
+        padding: 40px 80px;
+    }
+
+    .item-header-image {
+        height: 450px;
+    }
+
+    .product-title {
+        font-size: 50px;
+    }
+
+    .review-box {
+        width: auto;
+    }
+
+    .dividar {
+        width: auto;
+    }
+
+    .second-right-conatainer img {
+        height: 600px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-box {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 40px;
+    }
+
+    .left-side-cont {
+        margin-bottom: 20px;
+    }
+
+    .right-side-cont {
+        margin-left: 0; /* Remove left margin for better centering */
+        text-align: center; /* Center align content in right column */
+    }
+
+    .best-seller {
+      display: none;
+    }
+    .Ratings-cont,
+    .review-box {
+      justify-content: center;
+    }
+     .bank-logos{
+      display: none;
+    }
+    .money-back{
+      display: none;
+    }
+    .price{
+      display: none;
+    }
+    .features-section{
+      justify-content: start;
+    }
+    .price-section,
+    .button-section{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center;
+        width: 100%; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .review-box {
+        padding: 15px;
+        height: auto;
+    }
+
+    .review-box img,
+    .review-box h5 {
+        margin-left: 0;
+    }
+
+    .dividar {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .second-section-box {
+        flex-direction: column;
+        height: auto; 
+        padding: 40px;
+    }
+
+    .second-left-container,
+    .second-right-conatainer {
+        text-align: center;
+        width: 100%;
+    }
+
+    .second-left-container h1,
+    .second-left-container h4 {
+        font-size: 45px;
+    }
+
+    .second-left-container p {
+        margin-bottom: 40px;
+    }
+
+    .feature-cell {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-feature-section,
+    .second-feature-section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .first-feature-section h5,
+    .second-feature-section h5 {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .second-right-conatainer img {
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .third-cont-heading {
+        padding: 30px 40px;
+        text-align: center;
+    }
+
+    .third-cont-box {
+        flex-direction: column;
+        padding: 30px 40px;
+    }
+
+    .v-line {
+        width: 80%; 
+        height: 1px;
+        margin: 20px 0;
+    }
+
+    .box1, .box2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .box2-grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box2-grid-container .extra-images {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 5px;
+    }
+
+    .box2-grid-container .extra-images img {
+        height: 60px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main-box,
+    .second-section-box,
+    .third-cont-box,
+    .third-cont-heading {
+        padding: 20px;
+    }
+
+    .item-header-image {
+        height: 300px;
+        width: 100%; 
+        object-fit: contain; 
+    }
+
+    .extra-images {
+        justify-content: center; 
+        flex-wrap: wrap; 
+        height: auto;
+    }
+
+    .extra-images img {
+        height: 60px; 
+        width: auto;
+    }
+
+    .product-title {
+        font-size: 35px;
+    }
+
+    .p-t-s {
+        font-size: 20px;
+    }
+
+    .review-box {
+        height: auto;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .review-box h5 {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .feature-title p {
+        font-size: 14px;
+    }
+
+    .price-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        margin-top: 20px;
+    }
+
+    .price h5 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .offer-price h5 {
+        font-size: 35px;
+    }
+
+    .btn-add-cart {
+        padding: 12px 30px;
+        font-size: 16px;
+        width: 80%; 
+        max-width: 300px; 
+    }
+
+    .bank-logos img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .money-back {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .money-back h4 {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .second-left-container h1,
+    .second-left-container h4 {
+        font-size: 35px;
+    }
+
+    .second-left-container p {
+        font-size: 16px;
+    }
+
+    .feature-no-one {
+        font-size: 25px;
+        padding: 8px 15px;
+        height: 30px;
+    }
+
+    .first-feature-section h5,
+    .second-feature-section h5 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .second-right-conatainer img {
+        height: 300px;
+    }
+
+    .third-cont-heading h1 {
+        font-size: 35px;
+    }
+
+    .ratings-box {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .ratings-box h4 {
+        font-size: 28px;
+    }
+
+    .ratings-box img {
+        height: 25px;
+    }
+
+    .box1 h3 {
+        font-size: 14px;
+    }
+
+    .box2-grid-container .extra-images img {
+        height: 50px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .main-box,
+    .second-section-box,
+    .third-cont-box,
+    .third-cont-heading {
+        padding: 15px;
+    }
+
+    .item-header-image {
+        height: 250px;
+    }
+
+    .product-title {
+        font-size: 28px;
+    }
+
+    .p-t-s {
+        font-size: 18px;
+    }
+
+    .review-box {
+        padding: 8px;
+        width: 95%; 
+    }
+
+    .review-box h5 {
+        font-size: 13px;
+    }
+
+    .feature-title p {
+        font-size: 13px;
+    }
+
+    .offer-price h5 {
+        font-size: 30px;
+    }
+
+    .btn-add-cart {
+        width: 90%;
+        max-width: 250px;
+    }
+
+    .money-back h4 {
+        font-size: 13px;
+    }
+
+    .second-left-container h1,
+    .second-left-container h4 {
+        font-size: 30px;
+    }
+
+    .second-left-container p {
+        font-size: 14px;
+    }
+
+    .feature-no-one {
+        font-size: 20px;
+        padding: 5px 10px;
+        height: 25px;
+    }
+
+    .first-feature-section h5,
+    .second-feature-section h5 {
+        font-size: 14px;
+    }
+
+    .second-right-conatainer img {
+        height: 250px;
+    }
+
+    .third-cont-heading h1 {
+        font-size: 30px;
+    }
+
+    .ratings-box h4 {
+        font-size: 24px;
+    }
+
+    .ratings-box img {
+        height: 20px;
+    }
+
+    .box1 h3 {
+        font-size: 13px;
+    }
+
+    .box2-grid-container .extra-images img {
+        height: 40px;
+    }
+}
